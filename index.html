@@ -26,8 +26,8 @@
   <body onload="show_page('about-me-page')">
 
     <div class="container-scroller">
-      <!-- start of Menu -->
-      <nav class="sidebar" id="sidebar">
+      <!-- start of Dummy Menu -->
+      <nav class="sidebar">
         <ul class="nav">
           <li class="nav-item profile">
             <div class="profile-desc">
@@ -36,7 +36,7 @@
                 </div>
             </div>
           </li>
-          <li class="nav-item menu-items" onclick="show_page('about-me-page')">
+          <li class="nav-item menu-items">
             <a class="nav-link">
               <span class="menu-icon" >
                 <i class="mdi mdi-account-circle"></i>
@@ -45,34 +45,35 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" href="#work-experience" aria-expanded="false"
-               aria-controls="ui-basic" onclick="show_page('work-experience-page')">
+            <a class="nav-link" data-toggle="collapse" aria-expanded="false"
+               aria-controls="ui-basic" >
+
               <span class="menu-icon">
                 <i class="mdi mdi-briefcase"></i>
               </span>
               <span class="menu-title">Work Experience</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="work-experience">
+            <div class="collapse">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="#bii-section">A*Star Bioinformatics Institute</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#gis-section">A*Star Genome Institute of Singapore</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#dso-section">DSO National Laboratories</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#yitu-section">YituTech</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#cg1112-section">CG1112 Teaching Assistant</a></li>
+                <li class="nav-item"> <a class="nav-link">A*Star Bioinformatics Institute</a></li>
+                <li class="nav-item"> <a class="nav-link">A*Star Genome Institute of Singapore</a></li>
+                <li class="nav-item"> <a class="nav-link">DSO National Laboratories</a></li>
+                <li class="nav-item"> <a class="nav-link">YituTech</a></li>
+                <li class="nav-item"> <a class="nav-link">CG1112 Teaching Assistant</a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" href="#ml-projects" aria-expanded="false"
-               aria-controls="ui-basic" onclick="show_page('ml-project-page')">
+            <a class="nav-link" data-toggle="collapse" aria-expanded="false"
+               aria-controls="ui-basic">
               <span class="menu-icon">
                 <i class="mdi mdi-chip"></i>
               </span>
               <span class="menu-title">ML Projects</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="ml-projects">
+            <div class="collapse">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="#x-ray-section">X-Ray Report Generation</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#fact-check-section">Fact Checking</a></li>
@@ -86,15 +87,15 @@
           </li>
 
           <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" href="#ai-projects" aria-expanded="false"
-               aria-controls="ui-basic" onclick="show_page('ai-project-page')">
+            <a class="nav-link" data-toggle="collapse" aria-expanded="false"
+               aria-controls="ui-basic">
               <span class="menu-icon">
                 <i class="mdi mdi-puzzle"></i>
               </span>
               <span class="menu-title">AI Projects</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="ai-projects">
+            <div class="collapse">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="#driving-section">OpenAI Gym Grid Driving</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#pac-man-section">Pac-Man</a></li>
@@ -104,47 +105,49 @@
             </div>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" href="#cv-projects" aria-expanded="false"
-               aria-controls="ui-basic" onclick="show_page('cv-project-page')">
+            <a class="nav-link" data-toggle="collapse" aria-expanded="false"
+               aria-controls="ui-basic">
               <span class="menu-icon">
                 <i class="mdi mdi-camera-iris"></i>
               </span>
               <span class="menu-title">Computer Vision Projects</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="cv-projects">
+            <div class="collapse">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="#panorama-section">Panorama Image</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#camera-section">Camera Calibration</a></li>
               </ul>
             </div>
           </li>
+
           <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" href="#se-projects" aria-expanded="false"
-               aria-controls="ui-basic" onclick="show_page('se-project-page')">
+            <a class="nav-link" data-toggle="collapse" aria-expanded="false"
+               aria-controls="ui-basic">
               <span class="menu-icon">
                 <i class="mdi mdi-xml"></i>
               </span>
               <span class="menu-title">Software Engineering Projects</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="se-projects">
+            <div class="collapse">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="#stock-taking-section">Stock Taking App</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#price-discord-section">Price Comparison Discord Channel</a></li>
               </ul>
             </div>
           </li>
+
           <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" href="#robotics-projects" aria-expanded="false"
-               aria-controls="ui-basic" onclick="show_page('robotics-project-page')">
+            <a class="nav-link" data-toggle="collapse" aria-expanded="false"
+               aria-controls="ui-basic">
               <span class="menu-icon">
                 <i class="mdi mdi-car-connected"></i>
               </span>
               <span class="menu-title">Robotics Projects</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="robotics-projects">
+            <div class="collapse">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="#search-robot-section">Search and Rescue Robot</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#bookshelf-section">Book-shelf Lock</a></li>
@@ -155,7 +158,173 @@
           </li>
 
           <li class="nav-item menu-items">
-            <a class="nav-link" onclick="show_page('interests-page')">
+            <a class="nav-link">
+              <span class="menu-icon">
+                <i class="mdi mdi-gamepad-variant"></i>
+              </span>
+              <span class="menu-title">Activities and Interests</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- End of Dummy Menu -->
+      <!-- Start of Menu -->
+      <nav class="sidebar sticky" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item profile">
+            <div class="profile-desc">
+                <div class="profile-name">
+                  <h3 class="mb-0 font-weight-normal">Chew Kin Whye</h3>
+                </div>
+            </div>
+          </li>
+          <li class="nav-item menu-items" onclick="scroll_to_top(); show_page_delay('about-me-page')">
+            <a class="nav-link">
+              <span class="menu-icon" >
+                <i class="mdi mdi-account-circle"></i>
+              </span>
+              <span class="menu-title">About Me</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#work-experience" aria-expanded="false"
+               aria-controls="ui-basic" onclick="scroll_to_top(); show_page_delay('work-experience-page')" >
+
+              <span class="menu-icon">
+                <i class="mdi mdi-briefcase"></i>
+              </span>
+              <span class="menu-title">Work Experience</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="work-experience">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="#bii-section"
+                                         onclick="show_page('work-experience-page')">A*Star Bioinformatics Institute</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#gis-section"
+                                         onclick="show_page('work-experience-page')">A*Star Genome Institute of Singapore</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#dso-section"
+                                         onclick="show_page('work-experience-page')">DSO National Laboratories</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#yitu-section"
+                                         onclick="show_page('work-experience-page')">YituTech</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#cg1112-section"
+                                         onclick="show_page('work-experience-page')">CG1112 Teaching Assistant</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#ml-projects" aria-expanded="false"
+               aria-controls="ui-basic" onclick="scroll_to_top(); show_page_delay('ml-project-page')">
+              <span class="menu-icon">
+                <i class="mdi mdi-chip"></i>
+              </span>
+              <span class="menu-title">ML Projects</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ml-projects">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="#x-ray-section"
+                                         onclick="show_page('ml-project-page')">X-Ray Report Generation</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#fact-check-section"
+                                         onclick="show_page('ml-project-page')">Fact Checking</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#ai-manager-section"
+                                         onclick="show_page('ml-project-page')">AI Relationship Manager</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#dance-dance-section"
+                                         onclick="show_page('ml-project-page')">Dance Move Detection</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#tis-section"
+                                         onclick="show_page('ml-project-page')">Translation Initiation Site Detection</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#leukemia-section"
+                                         onclick="show_page('ml-project-page')">Leukemia Disease Subtype Diagnosis</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#investment-section"
+                                         onclick="show_page('ml-project-page')">Stock Market Prediction</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#ai-projects" aria-expanded="false"
+               aria-controls="ui-basic" onclick="scroll_to_top(); show_page_delay('ai-project-page')">
+              <span class="menu-icon">
+                <i class="mdi mdi-puzzle"></i>
+              </span>
+              <span class="menu-title">AI Projects</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ai-projects">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="#driving-section"
+                                         onclick="show_page('ai-project-page')">OpenAI Gym Grid Driving</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#pac-man-section"
+                                         onclick="show_page('ai-project-page')">Pac-Man</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#sudoku-section"
+                                         onclick="show_page('ai-project-page')">Sudoku Puzzle</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#n-puzzle-section"
+                                         onclick="show_page('ai-project-page')">N-Puzzle</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#cv-projects" aria-expanded="false"
+               aria-controls="ui-basic" onclick="scroll_to_top(); show_page_delay('cv-project-page')">
+              <span class="menu-icon">
+                <i class="mdi mdi-camera-iris"></i>
+              </span>
+              <span class="menu-title">Computer Vision Projects</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="cv-projects">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="#panorama-section"
+                                         onclick="show_page('cv-project-page')">Panorama Image</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#camera-section"
+                                         onclick="show_page('cv-project-page')">Camera Calibration</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#se-projects" aria-expanded="false"
+               aria-controls="ui-basic" onclick="scroll_to_top(); show_page_delay('se-project-page')">
+              <span class="menu-icon">
+                <i class="mdi mdi-xml"></i>
+              </span>
+              <span class="menu-title">Software Engineering Projects</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="se-projects">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="#stock-taking-section"
+                                         onclick="show_page('se-project-page')">Stock Taking App</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#price-discord-section"
+                                         onclick="show_page('se-project-page')">Price Comparison Discord Channel</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#robotics-projects" aria-expanded="false"
+               aria-controls="ui-basic" onclick="scroll_to_top(); show_page('robotics-project-page')">
+              <span class="menu-icon">
+                <i class="mdi mdi-car-connected"></i>
+              </span>
+              <span class="menu-title">Robotics Projects</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="robotics-projects">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="#search-robot-section"
+                                         onclick="show_page('robotics-project-page')">Search and Rescue Robot</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#bookshelf-section"
+                                         onclick="show_page('robotics-project-page')">Book-shelf Lock</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#stock-trolley-section"
+                                         onclick="show_page('robotics-project-page')">Stock Taking Trolley</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#bed-wetting-section"
+                                         onclick="show_page('robotics-project-page')">IoT Bed-Wetting Sensor</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" onclick="scroll_to_top(); show_page_delay('interests-page')">
               <span class="menu-icon">
                 <i class="mdi mdi-gamepad-variant"></i>
               </span>
@@ -221,7 +390,8 @@
 
         <!-- Start of Work Experience Page -->
         <div class="content-wrapper" id="work-experience-page">
-          <div class="page-header" id="bii-section">
+          <div class="anchor" id="bii-section"></div>
+          <div class="page-header" >
             <h3 class="page-title"> A*STAR Bioinformatics Institute </h3>
           </div>
           <div class="row">
@@ -263,7 +433,8 @@
             </div>
           </div>
 
-          <div class="page-header" id="gis-section">
+          <div class="anchor" id="gis-section"></div>
+          <div class="page-header" >
             <h3 class="page-title"> A*STAR Genome Institute of Singapore </h3>
           </div>
           <div class="row">
@@ -304,8 +475,8 @@
               </div>
             </div>
           </div>
-
-          <div class="page-header" id="dso-section">
+          <div class="anchor" id="dso-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> DSO National Laboratories </h3>
           </div>
           <div class="row">
@@ -344,8 +515,9 @@
               </div>
             </div>
           </div>
+          <div class="anchor" id="yitu-section"></div>
 
-          <div class="page-header" id="yitu-section">
+          <div class="page-header">
             <h3 class="page-title"> YituTech </h3>
           </div>
           <div class="row">
@@ -386,7 +558,8 @@
             </div>
           </div>
 
-          <div class="page-header" id="cg1112-section">
+          <div class="anchor" id="cg1112-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> CG1112 Teaching Assistant </h3>
           </div>
           <div class="row">
@@ -441,7 +614,8 @@
 
         <!-- Start of ML Project Page -->
         <div class="content-wrapper" id="ml-project-page" >
-          <div class="page-header" id="x-ray-section">
+          <div class="anchor" id="x-ray-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> X-Ray Report Generation </h3>
           </div>
           <div class="row">
@@ -495,7 +669,8 @@
             </div>
           </div>
 
-          <div class="page-header" id="fact-check-section">
+          <div class="anchor" id="fact-check-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Fact checking algorithm </h3>
           </div>
           <div class="row">
@@ -545,7 +720,8 @@
             </div>
           </div>
 
-          <div class="page-header" id="ai-manager-section">
+          <div class="anchor" id="ai-manager-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> AI Relationship Manager </h3>
           </div>
           <div class="row">
@@ -596,7 +772,8 @@
             </div>
           </div>
 
-          <div class="page-header" id="tis-section">
+          <div class="anchor" id="tis-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Translation Initiation Site Detection </h3>
           </div>
           <div class="row">
@@ -652,7 +829,9 @@
               </div>
             </div>
           </div>
-          <div class="page-header" id="dance-dance-section">
+
+          <div class="anchor" id="dance-dance-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Dance-Dance Project </h3>
           </div>
           <div class="row">
@@ -714,7 +893,8 @@
             </div>
           </div>
 
-          <div class="page-header" id="leukemia-section">
+          <div class="anchor" id="leukemia-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Leukemia Disease Subtype Diagnosis </h3>
           </div>
           <div class="row">
@@ -770,7 +950,9 @@
               </div>
             </div>
           </div>
-          <div class="page-header" id="investment-section">
+
+          <div class="anchor" id="investment-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Stock Market Prediction </h3>
           </div>
           <div class="row">
@@ -841,7 +1023,8 @@
 
         <!-- Start of AI Project Page -->
         <div class="content-wrapper" id="ai-project-page">
-          <div class="page-header" id="driving-section">
+          <div class="anchor" id="driving-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> OpenAI Gym Grid Driving </h3>
           </div>
           <div class="row">
@@ -897,7 +1080,9 @@
               </div>
             </div>
           </div>
-          <div class="page-header" id="pac-man-section">
+
+          <div class="anchor" id="pac-man-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Pac-Man </h3>
           </div>
           <div class="row">
@@ -947,7 +1132,9 @@
               </div>
             </div>
           </div>
-          <div class="page-header" id="sudoku-section">
+
+          <div class="anchor" id="sudoku-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Sudoku Puzzle </h3>
           </div>
           <div class="row">
@@ -1001,7 +1188,9 @@
               </div>
             </div>
           </div>
-          <div class="page-header" id="n-puzzle-section">
+
+          <div class="anchor" id="n-puzzle-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> N-Puzzle </h3>
           </div>
           <div class="row">
@@ -1064,7 +1253,8 @@
 
         <!-- Start of CV Project Page -->
         <div class="content-wrapper" id="cv-project-page">
-          <div class="page-header" id="panorama-section">
+          <div class="anchor" id="panorama-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Panorama Image </h3>
           </div>
           <div class="row">
@@ -1117,7 +1307,8 @@
             </div>
           </div>
 
-          <div class="page-header" id="camera-section">
+          <div class="anchor" id="camera-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Camera Calibration </h3>
           </div>
           <div class="row">
@@ -1177,7 +1368,9 @@
 
         <!-- Start of SE Project Page -->
         <div class="content-wrapper" id="se-project-page">
-          <div class="page-header" id="stock-taking-section">
+
+          <div class="anchor" id="stock-taking-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Stock Taking App </h3>
           </div>
           <div class="row">
@@ -1232,7 +1425,8 @@
             </div>
           </div>
 
-          <div class="page-header" id="price-discord-section">
+          <div class="anchor" id="price-discord-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Price Comparison Discord Channel </h3>
           </div>
           <div class="row">
@@ -1294,7 +1488,9 @@
 
         <!-- Start of Robotics Project Page -->
         <div class="content-wrapper" id="robotics-project-page">
-          <div class="page-header" id="search-robot-section">
+
+          <div class="anchor" id="search-robot-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Search and Rescue Robot </h3>
           </div>
           <div class="row">
@@ -1348,7 +1544,8 @@
             </div>
           </div>
 
-          <div class="page-header" id="bookshelf-section">
+          <div class="anchor" id="bookshelf-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Bookshelf Lock </h3>
           </div>
           <div class="row">
@@ -1402,7 +1599,8 @@
             </div>
           </div>
 
-          <div class="page-header" id="stock-trolley-section">
+          <div class="anchor" id="stock-trolley-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> Stock Taking Trolley </h3>
           </div>
           <div class="row">
@@ -1458,7 +1656,8 @@
             </div>
           </div>
 
-          <div class="page-header" id="bed-wetting-section">
+          <div class="anchor" id="bed-wetting-section"></div>
+          <div class="page-header">
             <h3 class="page-title"> IoT Bed-Wetting Sensor </h3>
           </div>
           <div class="row">
@@ -1566,6 +1765,15 @@
     <!-- container-scroller -->
     <!-- plugins:js -->
     <script>
+    function show_page_delay(page) {
+      setTimeout(function () {
+        var elements = document.querySelectorAll('.content-wrapper');
+          for(var i=0; i<elements.length; i++){
+              elements[i].style.display = "None"
+          }
+        document.getElementById(page).style.display = "block";
+      }, 300);
+    }
     function show_page(page) {
       var elements = document.querySelectorAll('.content-wrapper');
         for(var i=0; i<elements.length; i++){
@@ -1573,7 +1781,15 @@
         }
       document.getElementById(page).style.display = "block";
     }
+
     </script>
+    <script>
+    function scroll_to_top() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+
     <script src="assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
