@@ -15826,7 +15826,18 @@ code {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;}
+  width: 70%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  border-radius: 1%;}
+
+.img-square {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  aspect-ratio: 2 / 1;
+  object-fit: scale-down;}
 
 .stretch-card {
   display: -webkit-flex;
