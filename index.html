@@ -70,7 +70,7 @@
               <span class="menu-icon">
                 <i class="mdi mdi-chip"></i>
               </span>
-              <span class="menu-title">ML Projects</span>
+              <span class="menu-title">Machine Learning Projects</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse">
@@ -81,6 +81,7 @@
                 <li class="nav-item"> <a class="nav-link" href="#dance-dance-section">Dance Move Detection</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#tis-section">Translation Initiation Site Detection</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#leukemia-section">Leukemia Disease Subtype Diagnosis</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#FACS-section">Facial Action Coding System</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#investment-section">Stock Market Prediction</a></li>
               </ul>
             </div>
@@ -92,7 +93,7 @@
               <span class="menu-icon">
                 <i class="mdi mdi-puzzle"></i>
               </span>
-              <span class="menu-title">AI Projects</span>
+              <span class="menu-title">Artificial Intelligence Projects</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse">
@@ -117,6 +118,9 @@
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="#panorama-section">Panorama Image</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#camera-section">Camera Calibration</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#relative-pose-section">Relative Pose Estimation</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#absolute-pose-section">Absolute Pose Estimation</a></li>
+
               </ul>
             </div>
           </li>
@@ -150,6 +154,7 @@
             <div class="collapse">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="#search-robot-section">Search and Rescue Robot</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#car-RTOS-section">Car Speed Control RTOS</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#bookshelf-section">Book-shelf Lock</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#stock-trolley-section">Stock Taking Trolley</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#bed-wetting-section">IoT Bed-Wetting Sensor</a></li>
@@ -157,14 +162,14 @@
             </div>
           </li>
 
-          <li class="nav-item menu-items">
-            <a class="nav-link">
-              <span class="menu-icon">
-                <i class="mdi mdi-gamepad-variant"></i>
-              </span>
-              <span class="menu-title">Activities and Interests</span>
-            </a>
-          </li>
+          <!--<li class="nav-item menu-items">-->
+            <!--<a class="nav-link">-->
+              <!--<span class="menu-icon">-->
+                <!--<i class="mdi mdi-gamepad-variant"></i>-->
+              <!--</span>-->
+              <!--<span class="menu-title">Activities and Interests</span>-->
+            <!--</a>-->
+          <!--</li>-->
         </ul>
       </nav>
       <!-- End of Dummy Menu -->
@@ -217,7 +222,7 @@
               <span class="menu-icon">
                 <i class="mdi mdi-chip"></i>
               </span>
-              <span class="menu-title">ML Projects</span>
+              <span class="menu-title">Machine Learning Projects</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ml-projects">
@@ -234,6 +239,8 @@
                                          onclick="show_page('ml-project-page')">Translation Initiation Site Detection</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#leukemia-section"
                                          onclick="show_page('ml-project-page')">Leukemia Disease Subtype Diagnosis</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#FACS-section"
+                                         onclick="show_page('ml-project-page')">Facial Action Coding System</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#investment-section"
                                          onclick="show_page('ml-project-page')">Stock Market Prediction</a></li>
               </ul>
@@ -246,7 +253,7 @@
               <span class="menu-icon">
                 <i class="mdi mdi-puzzle"></i>
               </span>
-              <span class="menu-title">AI Projects</span>
+              <span class="menu-title">Artificial Intelligence Projects</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ai-projects">
@@ -277,6 +284,10 @@
                                          onclick="show_page('cv-project-page')">Panorama Image</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#camera-section"
                                          onclick="show_page('cv-project-page')">Camera Calibration</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#relative-pose-section"
+                                         onclick="show_page('cv-project-page')">Relative Pose Estimation</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#absolute-pose-section"
+                                         onclick="show_page('cv-project-page')">Absolute Pose Estimation</a></li>
               </ul>
             </div>
           </li>
@@ -313,6 +324,9 @@
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="#search-robot-section"
                                          onclick="show_page('robotics-project-page')">Search and Rescue Robot</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#car-RTOS-section"
+                                         onclick="show_page('robotics-project-page')">Car Speed Control RTOS</a></li>
+
                 <li class="nav-item"> <a class="nav-link" href="#bookshelf-section"
                                          onclick="show_page('robotics-project-page')">Book-shelf Lock</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#stock-trolley-section"
@@ -323,28 +337,72 @@
             </div>
           </li>
 
-          <li class="nav-item menu-items">
-            <a class="nav-link" onclick="scroll_to_top(); show_page_delay('interests-page')">
-              <span class="menu-icon">
-                <i class="mdi mdi-gamepad-variant"></i>
-              </span>
-              <span class="menu-title">Activities and Interests</span>
-            </a>
-          </li>
+          <!--<li class="nav-item menu-items">-->
+            <!--<a class="nav-link" onclick="scroll_to_top(); show_page_delay('interests-page')">-->
+              <!--<span class="menu-icon">-->
+                <!--<i class="mdi mdi-gamepad-variant"></i>-->
+              <!--</span>-->
+              <!--<span class="menu-title">Activities and Interests</span>-->
+            <!--</a>-->
+          <!--</li>-->
         </ul>
       </nav>
       <!-- End of Menu -->
 
       <div class="container-fluid page-body-wrapper">
-
         <!-- Start of About Me Page -->
         <div class="content-wrapper" id="about-me-page">
           <div class="page-header">
             <h3 class="page-title"> About Me </h3>
           </div>
-          <div class="row">
-            <div class="col-12 grid-margin stretch-card">
-                  <img class="img-main img-rounded" src="assets/images/KinWhyeCrop.jpg">
+          <div class="grid-margin">
+            <div id="kw-images" class="carousel slide" data-interval="false">
+              <ol class="carousel-indicators">
+                <li data-target="#kw-images" data-slide-to="0" class="active"></li>
+                <li data-target="#kw-images" data-slide-to="1"></li>
+                <li data-target="#kw-images" data-slide-to="2"></li>
+                <li data-target="#kw-images" data-slide-to="3"></li>
+                <li data-target="#kw-images" data-slide-to="4"></li>
+                <li data-target="#kw-images" data-slide-to="5"></li>
+                <li data-target="#kw-images" data-slide-to="6"></li>
+                <li data-target="#kw-images" data-slide-to="7"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="img-main" src="assets/images/kw_amsterdam.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-main" src="assets/images/kw_ogl.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-main" src="assets/images/kw_nab.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-main" src="assets/images/kw_jyss.jpg" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-main" src="assets/images/kw_grad.jpg" alt="Fifth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-main" src="assets/images/kw_y1.jpg" alt="Sixth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-square" src="assets/images/kw_nab_paint.jpg" alt="Seventh slide">
+                </div>
+                <div class="carousel-item">
+                  <video class="img-main" controls>
+                    <source src="assets/images/kw_snowboard.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#kw-images" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#kw-images" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
           <div class="row">
@@ -368,7 +426,6 @@
                   <h4 class="card-title">Qualities</h4>
                   <p>
                     <ul class="card-description">
-                      <li>Highly Motivated</li>
                       <li>Critical Thinker</li>
                       <li>Independent Learner</li>
                       <li>Hard Working</li>
@@ -420,7 +477,7 @@
                         Bayesian optimization, HyperBand, and gradient-based optimization</li>
                       <li>Presented the algorithms to researchers in the lab</li>
                       <li>Discussed and designed ways to improve the algorithms with my professor</li>
-                      <li>ran experiments to explore the how the data noise, target complexity, model complexity,
+                      <li>Ran experiments to explore the how the data noise, target complexity, model complexity,
                         and number of training examples affects the bias and variance.</li>
                     </ul>
                   </p>
@@ -798,9 +855,32 @@
           <div class="page-header">
             <h3 class="page-title"> Dance-Dance Project </h3>
           </div>
-          <div class="row">
-            <div class="col-12 grid-margin stretch-card">
-              <img class="img-main" src="assets/images/dance-dance_crop.jpg">
+          <div class="grid-margin">
+            <div id="dance-dance-images" class="carousel slide" data-interval="false">
+              <ol class="carousel-indicators">
+                <li data-target="#dance-dance-images" data-slide-to="0" class="active"></li>
+                <li data-target="#dance-dance-images" data-slide-to="1"></li>
+                <li data-target="#dance-dance-images" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="img-square" src="assets/images/dance_dance_web.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-square" src="assets/images/dance_dance_uml.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-square" src="assets/images/dance_dance_glove.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#dance-dance-images" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#dance-dance-images" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
           <div class="row">
@@ -827,7 +907,8 @@
                       data into fixed time steps. From there, I extracted 462 features such as the AR coefficients,
                       Entropy, Band Energy, etc.</li>
                       <li>Performed feature selection. I removed the correlated features and ran feature extraction
-                      using the Random Forest Classifier.</li>
+                      using the Random Forest Classifier. This is because having too many features will lead to the
+                      curse of dimensionality</li>
                       <li>Performed training and testing of the feed forward neural network. (The FFNN was chosen
                         so that it could be easily implemented onto the FPGA, as compared to using CNNs or RNNs)</li>
                       <li>Helped with the integration of the model onto the FPGA device for real-time predictions </li>
@@ -901,6 +982,76 @@
                     <ul class="card-description">
                       <li>Using just 216 training examples and having 10 subtype classes to predict,
                         I obtained an accuracy of 63%.</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="anchor" id="FACS-section"></div>
+          <div class="page-header">
+            <h3 class="page-title"> Facial Action Coding System </h3>
+          </div>
+          <div class="grid-margin">
+            <div id="FACS-images" class="carousel slide" data-interval="false">
+              <ol class="carousel-indicators">
+                <li data-target="#FACS-images" data-slide-to="0" class="active"></li>
+                <li data-target="#FACS-images" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="img-square" src="assets/images/FACS_pose.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-square" src="assets/images/FACS_expression.png" alt="Second slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#FACS-images" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#FACS-images" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Objective</h4>
+                  <p class="card-description">For this project, I had to train a model for head-pose estimation and to
+                    classify the presence of human facial expressions </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Accomplishments</h4>
+                  <p>
+                    <ul class="card-description">
+                      <li>Trained a neural network for head-pose estimation </li>
+                      <li>Implemented a decision tree</li>
+                      <li>Trained a support vector machine with the linear, polynomial, and RBF kernel for
+                        binary classification of facial expression</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Results</h4>
+                  <p>
+                    <ul class="card-description">
+                      <li>Obtain a MSE of 26.8 for head-pose estimation</li>
+                      <li>Obtain a F-measure of 91.67% for the classification of facial expression</li>
                     </ul>
                 </div>
               </div>
@@ -989,7 +1140,7 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Objective</h4>
-                  <p class="card-description">For this project, I create an reinforcement AI agent that learns to
+                  <p class="card-description">For this project, we had to create an reinforcement AI agent that learns to
                     solve the OpenAI Gym Grid Driving problem, where the agent has to drive across the road to the
                     finish point without crashing into other cars.</p>
                 </div>
@@ -1043,7 +1194,7 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Objective</h4>
-                  <p class="card-description">For this project, I create an reinforcement AI agent that learns to
+                  <p class="card-description">For this project, we had to create an reinforcement AI agent that learns to
                     play Pac-Man.</p>
                 </div>
               </div>
@@ -1091,7 +1242,7 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Objective</h4>
-                  <p class="card-description">For this project, I create an AI agent that can solve a Sudoku
+                  <p class="card-description">For this project, we had to create an AI agent that can solve a Sudoku
                     puzzle</p>
                 </div>
               </div>
@@ -1143,7 +1294,7 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Objective</h4>
-                  <p class="card-description">For this project, I create an AI agent that can solve the N-Puzzle</p>
+                  <p class="card-description">For this project, we had to create an AI agent that can solve the N-Puzzle</p>
                 </div>
               </div>
             </div>
@@ -1185,7 +1336,7 @@
             </div>
           </footer>
         </div>
-        <!-- End of ai project Page -->
+        <!-- End of AI project Page -->
 
         <!-- Start of CV Project Page -->
         <div class="content-wrapper" id="cv-project-page">
@@ -1193,11 +1344,31 @@
           <div class="page-header">
             <h3 class="page-title"> Panorama Image </h3>
           </div>
-          <div class="row">
-            <div class="col-12 grid-margin stretch-card">
-              <img class="img-square" src="assets/images/panorama.jpg">
+          <div class="grid-margin">
+            <div id="panorama-images" class="carousel slide" data-interval="false">
+              <ol class="carousel-indicators">
+                <li data-target="#panorama-images" data-slide-to="0" class="active"></li>
+                <li data-target="#panorama-images" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="img-square" src="assets/images/panorama_web.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-square" src="assets/images/panorama_ransac.jpg" alt="Second slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#panorama-images" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#panorama-images" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
+
           <div class="row">
             <div class="col-12 grid-margin stretch-card">
               <div class="card">
@@ -1245,7 +1416,7 @@
           </div>
           <div class="row">
             <div class="col-12 grid-margin stretch-card">
-              <img class="img-square" src="assets/images/camera.png">
+              <img class="img-main" src="assets/images/camera.png">
             </div>
           </div>
           <div class="row">
@@ -1266,8 +1437,7 @@
                   <h4 class="card-title">Accomplishments</h4>
                   <p>
                     <ul class="card-description">
-                      <li>Implemented the point and pose algorithm</li>
-                      <li>Implemented the 8-point algorithm</li>
+                      <li>Implemented Zhenyou Zhang's camera calibration</li>
                     </ul>
                 </div>
               </div>
@@ -1280,12 +1450,110 @@
                   <h4 class="card-title">Results</h4>
                   <p>
                     <ul class="card-description">
-                      <li>Successfully obtain the camera parameters</li>
+                      <li>Successfully obtained the camera parameters</li>
                     </ul>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="anchor" id="relative-pose-section"></div>
+          <div class="page-header">
+            <h3 class="page-title"> Relative Pose Estimation </h3>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <img class="img-square" src="assets/images/relative_pose.png">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Objective</h4>
+                  <p class="card-description">For the project, I had to estimate the essential and fundamental
+                    matrix relating photos from two cameras.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Accomplishments</h4>
+                  <p>
+                    <ul class="card-description">
+                      <li>Implemented the eight-point algorithm</li>
+                      <li>Implemented the decomposition of the essential matrix to obtain the rotation and
+                      translation between the two views</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Results</h4>
+                  <p>
+                    <ul class="card-description">
+                      <li>Successfully obtained the essential and fundamental matrix</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="anchor" id="absolute-pose-section"></div>
+          <div class="page-header">
+            <h3 class="page-title"> Absolute Pose Estimation </h3>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <img class="img-square" src="assets/images/absolute_pose.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Objective</h4>
+                  <p class="card-description">For the project, I had to estimate the rotation and translation
+                    of a camera using 2d-to-3d correspondences.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Accomplishments</h4>
+                  <p>
+                    <ul class="card-description">
+                      <li>Implemented the linear n-point camera pose determination algorithm</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Results</h4>
+                  <p>
+                    <ul class="card-description">
+                      <li>Successfully obtained the rotation and translation of the camera and reprojected the
+                      3d points back into image space to compare it with the ground truth to ensure correctness</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <footer class="footer">
             <div class="d-sm-flex justify-content-center justify-content-sm-between">
               <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span>
@@ -1301,9 +1569,32 @@
           <div class="page-header">
             <h3 class="page-title"> Stock Taking App </h3>
           </div>
-          <div class="row">
-            <div class="col-12 grid-margin stretch-card">
-              <img class="img-main" src="assets/images/stock-taking.png">
+          <div class="grid-margin">
+            <div id="stock-taking-images" class="carousel slide" data-interval="false">
+              <ol class="carousel-indicators">
+                <li data-target="#stock-taking-images" data-slide-to="0" class="active"></li>
+                <li data-target="#stock-taking-images" data-slide-to="1"></li>
+                <li data-target="#stock-taking-images" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="img-main" src="assets/images/stock_taking_app.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-square" src="assets/images/stock_taking_logic.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-square" src="assets/images/stock_taking_model.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#stock-taking-images" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#stock-taking-images" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
           <div class="row">
@@ -1324,11 +1615,13 @@
                   <h4 class="card-title">Accomplishments</h4>
                   <p>
                     <ul class="card-description">
-                      <li>Coded in Java</li>
+                      <li>Created multiple features for the app, including account management and login,
+                        editing items in inventory, item search, creating loan list, and tagging items.</li>
+                      <li>Created test cases to ensure that the app works as expected</li>
                       <li>Applied Object-Oriented Programming</li>
-                      <li>Maintained good programming practices to ensure code is function, readable,
-                        and reusable</li>
-                      <li>Managed the code base with more than 1000 lines of code</li>
+                      <li>Maintained good programming practices and refactored code to ensure code is function,
+                        readable, and reusable</li>
+                      <li>Created a user and developer guide</li>
                     </ul>
                 </div>
               </div>
@@ -1341,8 +1634,9 @@
                   <h4 class="card-title">Results</h4>
                   <p>
                     <ul class="card-description">
-                      <li>We were able to produce a working stock taking application, which could help
-                        reduce the tedious and manual paperwork that had to be done by the lab technicians.</li>
+                      <li>We were able to produce a working stock taking application with over 8,000 lines of code,
+                        which could help reduce the tedious and manual paperwork that had to be done by the
+                        lab technicians</li>
                     </ul>
                 </div>
               </div>
@@ -1413,9 +1707,29 @@
           <div class="page-header">
             <h3 class="page-title"> Search and Rescue Robot </h3>
           </div>
-          <div class="row">
-            <div class="col-12 grid-margin stretch-card">
-              <img class="img-main" src="assets/images/cg1112.png">
+
+          <div class="grid-margin">
+            <div id="CG1112-images" class="carousel slide" data-interval="false">
+              <ol class="carousel-indicators">
+                <li data-target="#CG1112-images" data-slide-to="0" class="active"></li>
+                <li data-target="#CG1112-images" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="img-main" src="assets/images/cg1112_robot.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-square" src="assets/images/cg1112_architecture.png" alt="Second slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#CG1112-images" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#CG1112-images" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
           <div class="row">
@@ -1436,10 +1750,12 @@
                   <h4 class="card-title">Accomplishments</h4>
                   <p>
                     <ul class="card-description">
-                      <li>Programmed the Arduino for movement and speed control of the wheels</li>
-                      <li>Set up communication protocols between Raspberry Pi and the Arduino to send instructions</li>
-                      <li>Connected LIDAR to Raspberry Pi to obtain information of the surrounding</li>
-                      <li>Used the SLAM algorithm to build a map</li>
+                      <li>Programmed the Arduino for movement and speed control of the wheels using Pulse Width Modulation</li>
+                      <li>Mounted ultrasonic sensors for obstacle avoidance</li>
+                      <li>Set up communication protocols between Raspberry Pi and the Arduino to send instructions.
+                        This involves the designing of the network packet.</li>
+                      <li>Set up the LIDAR with Raspberry Pi to obtain information of the surrounding</li>
+                      <li>Used the SLAM algorithm to build a map of the surroundings as the robot navigates</li>
                       <li>Controlled the robot remotely using SSH into the Raspberry Pi</li>
                     </ul>
                 </div>
@@ -1453,7 +1769,82 @@
                   <h4 class="card-title">Results</h4>
                   <p>
                     <ul class="card-description">
-                      <li>We were able to remotely control the robot to navigate through an obstacle course</li>
+                      <li>We were able to successfully control the robot remotely to navigate through an obstacle course</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="anchor" id="car-RTOS-section"></div>
+          <div class="page-header">
+            <h3 class="page-title"> Car Speed Control RTOS </h3>
+          </div>
+
+          <div class="grid-margin">
+            <div id="car-RTOS-images" class="carousel slide" data-interval="false">
+              <ol class="carousel-indicators">
+                <li data-target="#car-RTOS-images" data-slide-to="0" class="active"></li>
+                <li data-target="#car-RTOS-images" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="img-main" src="assets/images/car-RTOS-online.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-square" src="assets/images/car-RTOS-arduino.png" alt="Second slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#car-RTOS-images" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#car-RTOS-images" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Objective</h4>
+                  <p class="card-description">For this project, we had to build a RTOS which can automatically
+                    control the speed of the car based on the distance from the car in front of it, integrated
+                    with optional controls from the driver.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Accomplishments</h4>
+                  <p>
+                    <ul class="card-description">
+                      <li>Created a simple simulation for the RTOS</li>
+                      <li>Created 3 tasks to accomplish the objective: UART Communication, compute speed, and
+                        read value</li>
+                      <li>Set priorities for the tasks</li>
+                      <li>Created message queues for communication between the tasks</li>
+                      <li>Used a priority-driven pre-emptive scheduling policy to schedule the tasks</li>
+                      <li>Created interrupts to read controls from the driver</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Results</h4>
+                  <p>
+                    <ul class="card-description">
+                      <li>We were able to successfully create an RTOS that can manage and schedule the different tasks
+                      in order to control the speed of the car to maintain a safe distance</li>
                     </ul>
                 </div>
               </div>
@@ -1622,45 +2013,43 @@
             </div>
           </footer>
         </div>
-        <!-- End of robotics Project Page -->
+        <!-- End of Robotics Project Page -->
 
-        <!-- Start of Robotics Project Page -->
-        <div class="content-wrapper" id="interests-page">
-          <div class="page-header">
-            <h3 class="page-title"> Activities and Interests </h3>
-          </div>
-          <div class="row">
-            <div class="col-12 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <img class="img-lg" src="assets/images/KinWhye.jpg">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Interests</h4>
-                  <p>
-                    <ul class="card-description">
-                      <li>Boxing</li>
-                      <li>Muay Thai</li>
-                      <li>Snowboarding</li>
-                      <li>Caving</li>
-                      <li>Hiking</li>
-                    </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <footer class="footer">
-            <div class="d-sm-flex justify-content-center justify-content-sm-between">
-              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span>
-            </div>
-          </footer>
-        </div>
+        <!-- Start of Interests Project Page -->
+        <!--<div class="content-wrapper" id="interests-page">-->
+          <!--<div class="page-header">-->
+            <!--<h3 class="page-title"> 3D Cube Image Gallery </h3>-->
+          <!--</div>-->
+          <!--<div class="grid-margin">-->
+            <!--<div class="cube-container">-->
+              <!--<div class="cube initial-position">-->
+                <!--<img class="cube-face-image image-1" src="assets/images/ord-1.jpg">-->
+                <!--<img class="cube-face-image image-2" src="assets/images/ord-2.jpg">-->
+                <!--<img class="cube-face-image image-3" src="assets/images/ord-3.jpg">-->
+                <!--<img class="cube-face-image image-4" src="assets/images/ord-4.jpg">-->
+                <!--<img class="cube-face-image image-5" src="assets/images/ord-5.jpg">-->
+                <!--<img class="cube-face-image image-6" src="assets/images/ord-6.jpg">-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+
+          <!--<h2>Click the images below to rotate the cube</h2>-->
+
+          <!--<div class="image-buttons">-->
+              <!--<input type="image" class="show-image-1" src="assets/images/ord-1.jpg">-->
+              <!--<input type="image" class="show-image-2" src="assets/images/ord-2.jpg">-->
+              <!--<input type="image" class="show-image-3" src="assets/images/ord-3.jpg">-->
+              <!--<input type="image" class="show-image-4" src="assets/images/ord-4.jpg">-->
+              <!--<input type="image" class="show-image-5" src="assets/images/ord-5.jpg">-->
+              <!--<input type="image" class="show-image-6" src="assets/images/ord-6.jpg">-->
+          <!--</div>-->
+
+          <!--<footer class="footer">-->
+            <!--<div class="d-sm-flex justify-content-center justify-content-sm-between">-->
+              <!--<span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span>-->
+            <!--</div>-->
+          <!--</footer>-->
+        <!--</div>-->
         <!-- End of interests Project Page -->
 
       </div>
@@ -1668,6 +2057,37 @@
 
     <!-- container-scroller -->
     <!-- plugins:js -->
+    <script>
+      window.addEventListener("DOMContentLoaded",	() => {
+
+	const cube = document.querySelector(".cube"),
+		  imageButtons = document.querySelector(".image-buttons");
+	let cubeImageClass = cube.classList[1];
+
+	//Add click event listener to image buttons container
+	imageButtons.addEventListener("click", e => {
+
+		//Get node type and class value of clicked element
+		const targetNode = e.target.nodeName,
+			  targetClass = e.target.className;
+
+		//Check if image input has been clicked and isn't the currently shown image
+		if (targetNode === "INPUT" && targetClass !== cubeImageClass) {
+
+			console.log(`Show Image: ${targetClass.charAt(11)}`);
+
+			//Replace previous cube image class with new class
+			cube.classList.replace(cubeImageClass, targetClass);
+
+			//Update cube image class variable with new class
+			cubeImageClass = targetClass;
+
+		}
+
+	});
+
+});
+    </script>
     <script>
     function show_page_delay(page) {
       setTimeout(function () {
@@ -1693,7 +2113,6 @@
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
     </script>
-
     <script src="assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
